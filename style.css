@@ -1,4 +1,79 @@
 
 body{
-    background-color: aliceblue;
+    background-color: #fceac9;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #f0bb98;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+width: 75%;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-around; /*Mettre les espaces entre les liens*/
+}
+
+.links li {
+    list-style: none; /*pour enlever les pettits points*/
+}
+
+/*Style aux ancres des liens*/
+.links a {
+    text-decoration: none; /* Pour enlever les surlignes*/
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    /* background-image: linear-gradient(#ffffff, #ffffff); */
+background-position-y:100%;
+background-position-x:50%;
+background-repeat:no-repeat;
+}
+.links a:hover{
+    /* background-size: 100% 0.15em; */
+    color:#3b1320 ;
+}
+
+h1 {
+    color: #3b1320;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.tab{
+    padding: 10px 20px;
+    background-color: #b4e1e8;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    margin: 0 5px;
+    width: 300px;
+   height: 50px;
+   text-align: center;
+}
+.tab.active {
+    background-color: #3b1320;
+}
+.sidebar {
+    position: fixed; /* Fixe la sidebar sur la page */
+    top: 0;          /* Positionne la sidebar en haut */
+    left: 0;         /* Positionne la sidebar à gauche */
+    width: 250px;    /* Largeur de la sidebar */
+    height: 100vh;   /* Hauteur de la sidebar pour toute la hauteur de la page */
+    padding: 300px;   /* Espace à l'intérieur de la sidebar */
+    box-sizing: border-box; /* Inclut les bordures et padding dans la taille de l'élément */
 }

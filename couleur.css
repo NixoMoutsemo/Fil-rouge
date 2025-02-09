@@ -1,0 +1,10 @@
+/* Définition des variables couleurs*/
+:root {
+    --primary-color: #f0bb98; /*  */
+    --btn-color: #b4e1e8; /*  */
+    --form-color: #efeeee; /*  */
+    --font-color: #fceac9; /*  */
+    --text-color: #3b1320; /* couleur du texte */
+    --white-color:white;
+
+  }
